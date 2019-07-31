@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit mocha --require ignore-styles"
   },
   "dependencies": {
     "vue": "^2.6.10",
@@ -28,6 +28,7 @@
     "chai": "^4.1.2",
     "deepmerge": "^4.0.0",
     "fibers": "^4.0.1",
+    "ignore-styles": "^5.0.1",
     "node-sass": "^4.9.0",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",

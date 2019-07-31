@@ -4,6 +4,20 @@ Vue CLI 3.9.3
 
 Vuetify 2.0.3
 
+### Solution
+
+The solution is the highest rated answer to this [stackoverflow question](https://stackoverflow.com/questions/32236443/mocha-testing-failed-due-to-css-in-webpack):
+
+```
+npm install --save-dev ignore-styles
+```   
+
+and then edit package.json:
+
+```
+"test:unit": "vue-cli-service test:unit mocha --require ignore-styles"
+```
+
 Unit tests fail with errors similar to this one:
 
 ```

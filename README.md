@@ -53,6 +53,6 @@ I created a new Vue CLI (v3.9.3) app using this preset:
 "cssPreprocessor": "node-sass"
 ```
 
-Then I following these [instructions](https://vuetifyjs.com/en/customization/sass-variables) to add support for SASS/SCSS.
+Then I followed these [instructions](https://vuetifyjs.com/en/customization/sass-variables) to add support for SASS/SCSS.
 
 
